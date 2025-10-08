@@ -1,0 +1,207 @@
+/* Importação das fontes */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=IM+Fell+DW+Pica&display=swap');
+
+/* Reset básico e fundo geral */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #3e3a37; /* Cor de fundo escura */
+    color: #f0e6d6; /* Cor do texto em tom de pergaminho */
+    font-family: 'IM Fell DW Pica', serif;
+    background-image: url('https://www.transparenttextures.com/patterns/fabric-light.png'); /* Textura de fundo */
+    background-repeat: repeat;
+}
+
+/* --- Estilo da Página de Entrada (index.html) --- */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url('https://images.unsplash.com/photo-1549416043-41f3d8e5e78a');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 4rem;
+    color: #e0bf1a;
+    text-shadow: 3px 3px 5px black;
+    letter-spacing: 5px;
+    z-index: 1;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 1rem;
+    color: #e01a1a;
+    text-shadow: 3px 3px 5px black;
+    letter-spacing: 5px;
+    z-index: 1;
+    margin-top: 0.5rem;
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    color: #e0bf1a;
+    text-shadow: 3px 3px 5px black;
+    letter-spacing: 5px;
+    z-index: 1;
+    margin-top: 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #5d4037;
+    color: #f0e6d6;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    border: 3px solid #ffd700;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+    z-index: 1;
+}
+
+.btn:hover {
+    background-color: #7b5e57;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.7);
+}
+
+/* --- Estilo da Página do Livro (livro.html) --- */
+.book-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.book-page {
+    width: 80%;
+    max-width: 800px;
+    background-color: #f0e6d6;
+    color: #4b3d30;
+    padding: 50px 80px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    line-height: 1.8;
+    position: relative;
+    background-image: url('https://www.transparenttextures.com/patterns/old-map.png');
+    background-repeat: repeat;
+}
+
+/* Detalhe de moldura rústica */
+.book-page::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border: 5px solid #5d4037;
+    border-radius: 5px;
+    pointer-events: none;
+}
+
+.book-title {
+    font-family: 'Cinzel', serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #a68b5a;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 1.1rem;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+
+/* --- SEÇÃO DE RESPONSIVIDADE (PARA DISPOSITIVOS MÓVEIS) --- */
+@media (max-width: 768px) {
+    /* Estilo para a página de entrada (index.html) */
+    h1 {
+        font-size: 2.5rem; /* Diminui o tamanho do título */
+        letter-spacing: 2px; /* Reduz o espaçamento entre as letras */
+    }
+
+    .btn {
+        font-size: 1.2rem; /* Diminui o tamanho do botão */
+        padding: 12px 24px; /* Reduz o preenchimento do botão */
+    }
+
+    /* Estilo para a página do livro (livro.html) */
+    .book-container {
+        padding: 20px 10px; /* Reduz o preenchimento lateral */
+    }
+
+    .book-page {
+        width: 95%; /* Usa quase toda a largura da tela */
+        padding: 30px; /* Reduz o preenchimento interno */
+    }
+
+    .book-title {
+        font-size: 2rem; /* Diminui o tamanho do título do livro */
+    }
+
+    p {
+        font-size: 1rem; /* Diminui o tamanho da fonte do texto para melhor leitura */
+    }
+}
+
+/* Efeito de Fogo */
+.fire-background {
+    position: fixed; /* Fixa o fundo na tela */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1b1a18; /* Fundo preto para o efeito de fogo */
+    z-index: -1; /* Garante que fique atrás de todo o conteúdo */
+    overflow: hidden; /* Garante que as partículas não saiam da tela */
+}
+
+/* Estilo para as partículas de fogo (serão criadas com JS) */
+.fire-particle {
+    position: absolute;
+    background-color: #ff4500; /* Cor de fogo */
+    border-radius: 50%;
+    opacity: 0; /* Começa invisível */
+    animation: fireSparkle 3s ease-out forwards; /* Animação de brilho e movimento */
+}
+
+@keyframes fireSparkle {
+    0% {
+        transform: translateY(0) scale(0);
+        opacity: 0;
+    }
+    20% {
+        opacity: 0.8;
+        background-color: #ffa500; /* Laranja mais claro */
+    }
+    100% {
+        transform: translateY(calc(100vh + 50px)) scale(1.5); /* Desce e aumenta de tamanho */
+        opacity: 0;
+        background-color: #ff0000; /* Vermelho */
+    }
+}
