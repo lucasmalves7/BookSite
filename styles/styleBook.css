@@ -155,9 +155,36 @@ p {
 }
 
 /* CAMPO DE IMAGENS DO ARQUIVO MAPS.HTML */
-img {
-    width: 1500px;
-    height: 1000px;
+
+.image1-container {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    padding: 3px;
+    margin-top: 20px;
+    margin-left: 42%;
+    background-color: rgb(9, 9, 32);
+    border-radius: 10px;
+}
+#galleryImage1 {
+    width: 200px;
+    height: 100px;
+}
+
+.image2-container {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    padding: 3px;
+    margin-top: 20px;
+    margin-left: 90vh;
+    background-color: rgb(9, 9, 32);
+    border-radius: 10px;
+}
+
+#galleryImage2 {
+    width: 200px;
+    height: 100px;
 }
 
 /* --- SEÇÃO DE RESPONSIVIDADE (PARA DISPOSITIVOS MÓVEIS) --- */
