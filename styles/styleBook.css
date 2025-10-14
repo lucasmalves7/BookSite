@@ -157,34 +157,40 @@ p {
 /* CAMPO DE IMAGENS DO ARQUIVO MAPS.HTML */
 
 .image1-container {
-    position: relative;
-    width: 200px;
-    height: 100px;
+    position: relative; /* Evita que a imagem fique fora do fluxo */
+    width: 90%;          /* Ocupa 90% da largura do contêiner pai */
+    max-width: 400px;    /* Limita a largura máxima */
+    margin: 0.5% auto 0;  /* Centraliza horizontalmente e aplica margem superior */
     padding: 3px;
-    margin-top: 20px;
-    margin-left: 42%;
     background-color: rgb(9, 9, 32);
     border-radius: 10px;
+    box-sizing: border-box;
+
 }
 #galleryImage1 {
-    width: 200px;
-    height: 100px;
+    width: 100%;         /* Adapta à largura do contêiner */
+    height: auto;        /* Mantém proporção da imagem */
+    display: block;      /* Remove espaço extra abaixo da imagem */
+    border-radius: 10px;
+
 }
 
 .image2-container {
-    position: relative;
-    width: 200px;
-    height: 100px;
+    position: relative; /* Evita que a imagem fique fora do fluxo */
+    width: 90%;          /* Ocupa 90% da largura do contêiner pai */
+    max-width: 400px;    /* Limita a largura máxima */
+    margin: 0.2% auto 0;  /* Centraliza horizontalmente e aplica margem superior */
     padding: 3px;
-    margin-top: 20px;
-    margin-left: 90vh;
     background-color: rgb(9, 9, 32);
     border-radius: 10px;
+    box-sizing: border-box;
 }
 
 #galleryImage2 {
-    width: 200px;
-    height: 100px;
+    width: 100%;         /* Adapta à largura do contêiner */
+    height: 290px;        /* Mantém proporção da imagem */
+    display: block;      /* Remove espaço extra abaixo da imagem */
+    border-radius: 10px;
 }
 
 /* --- SEÇÃO DE RESPONSIVIDADE (PARA DISPOSITIVOS MÓVEIS) --- */
@@ -239,7 +245,6 @@ p {
         font-size: 1rem; /* Diminui o tamanho da fonte do texto para melhor leitura */
     }
 }
-
 
 /* EFEITO DO FOGO */
 .fire-background {
