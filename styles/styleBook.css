@@ -71,7 +71,7 @@ nav a:hover {
     background-size: cover;
     background-position: center;
     position: relative;
-    padding: 20px; /* Adicionado para evitar que o conteúdo grude nas bordas */
+    padding: 10px; /* Adicionado para evitar que o conteúdo grude nas bordas */
 }
 
 .container::before {
@@ -154,6 +154,50 @@ p {
     margin-bottom: 20px;
 }
 
+/* CAMPO RELACIONADO A PÁGINA DE PERSONAGENS */
+
+    .slider-container {
+      max-width: 600px;
+      width: 90%;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .slider-image {
+      width: 100%;
+      height: auto;
+    }
+
+    .caption {
+      padding: 15px;
+      font-size: 1.1em;
+      color: #333;
+    }
+
+    .controls {
+      padding: 10px;
+      background-color: #eee;
+    }
+
+    .controls button {
+      padding: 10px 20px;
+      font-size: 1em;
+      margin: 0 5px;
+      border: none;
+      border-radius: 5px;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+    }
+
+    .controls button:hover {
+      background-color: #0056b3;
+    }
+
+
 /* CAMPO DE IMAGENS DO ARQUIVO MAPS.HTML */
 
 .image1-container {
@@ -192,6 +236,7 @@ p {
     display: block;      /* Remove espaço extra abaixo da imagem */
     border-radius: 10px;
 }
+
 
 /* --- SEÇÃO DE RESPONSIVIDADE (PARA DISPOSITIVOS MÓVEIS) --- */
 @media (max-width: 768px) {
