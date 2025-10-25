@@ -1,5 +1,5 @@
 
-//Efeito de Fogo na página
+//EFEITO DO FOGO NA PÁGINA
 document.addEventListener('DOMContentLoaded', () => {
     const fireBackground = document.querySelector('.fire-background');
 
@@ -35,3 +35,40 @@ function toggleMenu() {
       const menu = document.getElementById('menu');
       menu.classList.toggle('active');
     }
+
+//PASSADOR DE SLIDES DA PÁGINA DE PERSONAGENS
+    const slides = [
+      {
+        image: "images/Rudan.png",
+        caption: "Esta é a primeira imagem do slide."
+      },
+      {
+        image: "https://via.placeholder.com/600x400?text=Imagem+2",
+        caption: "Aqui está a segunda imagem com outra legenda."
+      },
+      {
+        image: "https://via.placeholder.com/600x400?text=Imagem+3",
+        caption: "A terceira imagem mostra algo diferente."
+      }
+    ];
+
+    let currentIndex = 0;
+
+    function showSlide(index) {
+      const slide = slides[index];
+      document.getElementById("slide").src = slide.image;
+      document.getElementById("caption").textContent = slide.caption;
+    }
+
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % slides.length;
+      showSlide(currentIndex);
+    }
+
+    function prevSlide() {
+      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      showSlide(currentIndex);
+    }
+
+    // Inicializa com o primeiro slide
+    showSlide(currentIndex);

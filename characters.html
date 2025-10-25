@@ -23,11 +23,15 @@
             <a href="aboutAuthor.html">Sobre o Autor</a>
         </nav>
     </header>
-    <main>
-        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTAxDhzxnQzE06lqfTFvhZ4EqxMw1oKM34nlYXfYcBZO9m-G28mlw0ifzEZj46sVV0ZTvK9lAbk4BTD/pubembed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-    </main>
-
-    <div class="fire-background"> </div>
-
+    <div class="slider-container">
+    <img id="slide" class="slider-image" src="" alt="Imagem do slide" />
+    <div id="caption" class="caption"></div>
+    <div class="controls">
+      <button onclick="prevSlide()">Anterior</button>
+      <button onclick="nextSlide()">Próxima</button>
     </div>
+  </div>
+    <div class="fire-background"> </div>
     <script src="scripts/scriptBook.js"></script>
+</body>
+</html>
