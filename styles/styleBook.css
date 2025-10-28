@@ -158,10 +158,10 @@ p {
 /* CAMPO RELACIONADO A PÁGINA DE PERSONAGENS */
 
 .slider-container {
-  max-width: 600px;
+  max-width: 400px;
   width: 90%;
   margin: 40px auto; /* Centraliza horizontalmente e dá espaçamento vertical */
-  background-color: #fff;
+  background-color: #070707;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   overflow: hidden;
@@ -173,7 +173,7 @@ p {
 
 .slider-image {
   max-width: 100%;
-  height: auto;
+  height: 500px;
   display: block;
   margin: 0 auto;
 }
@@ -182,12 +182,14 @@ p {
     .caption {
       padding: 15px;
       font-size: 1.1em;
-      color: #333;
+      color: rgb(247, 245, 245);
+      font-family: 'IM Fell DW Pica', serif;
     }
 
     .controls {
       padding: 10px;
-      background-color: #eee;
+      background-color: black;
+      border-radius: 10px;
     }
 
     .controls button {
@@ -196,13 +198,13 @@ p {
       margin: 0 5px;
       border: none;
       border-radius: 5px;
-      background-color: #007bff;
+      background-color: #3e3a37;
       color: white;
       cursor: pointer;
     }
 
     .controls button:hover {
-      background-color: #0056b3;
+      background-color: #3e3a37;
     }
 
 

@@ -40,15 +40,23 @@ function toggleMenu() {
     const slides = [
       {
         image: "images/Rudan.png",
-        caption: "Esta é a primeira imagem do slide."
+        caption: "Rudan (Rudân) - É um caçador ousado e jovem, mas rejeitado pelo povo de sua aldeia por possuir a marca do demônio em sua testa desde o dia de seu nascimento. Devido a isso Rudan sempre esconde o símbolo com uma faixa de couro amarrada sobre a cabeça, tapando sua marca de nascença."
       },
       {
-        image: "https://via.placeholder.com/600x400?text=Imagem+2",
-        caption: "Aqui está a segunda imagem com outra legenda."
+        image: "images/Nthale.jpeg",
+        caption: "Nthale Mbakan (Nitále Imbakân) - Foi capturado pelos valenthianos e feito de escravo por eles. Nthale navega junto de seus captores até o novo continente descoberto pelo império, enquanto sofre nas mãos de seus soberanos. Ele se apega a profecia de sua irmã, que dizia que na nova terra descoberta haverá alguém capaz de libertar ele e o seu povo."
       },
       {
-        image: "https://via.placeholder.com/600x400?text=Imagem+3",
-        caption: "A terceira imagem mostra algo diferente."
+        image: "images/Aruna.png",
+        caption: "Aruna (Arúna) - É uma jovem mulher muito estimada pelos Nairus da Floresta por causa de sua sensibilidade apurada em relação a natureza e ao mundo espiritual. Filha do Kacik de Kandrak, ela sabe que tem a obrigação de se casar com um caçador da aldeia, mas não almeja isso para si. Aruna deseja obter o conhecimentos dos nairus e se tornar tão respeitável e sábia quanto eles."
+      },
+      {
+        image: "images/Rakaro.png",
+        caption: "Rakaro (Rakáro) - Forte e bem visto na aldeia, ele é o primogênito do Kacik de Kandrak e também é o seu filho preferido. Rakaro almeja que na próxima Caçada Selvagem, que decidirá o novo kacik, ele consiga o Cocar Sagrado e a lança Kuakatan, que somente um kacik pode portar."
+      },
+      {
+        image: "images/Yanto Asa Branca.jpeg",
+        caption: "Eruvar (Eruvár) - Sempre acompanhado de sua ave fiel, uma harpia de nome Caju, Eruvar é um dos mais respeitados nairus da floresta. Ele possui o conhecimento oculto da floresta e dos espíritos, além de habilidades como curandeiro. Eruvar é estimado em todas as aldeias do sul e aparece de tempos em tempos em Kandrak trazendo conhecimento, recursos e bençãos ao povo."
       }
     ];
 
