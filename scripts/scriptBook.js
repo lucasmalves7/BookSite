@@ -57,7 +57,39 @@ function toggleMenu() {
       {
         image: "images/Eruvar Asa Branca.jpeg",
         caption: "Eruvar (Eruvár) - Sempre acompanhado de sua ave fiel, uma harpia chamada Pacurun, Eruvar é um dos mais respeitados nairus da floresta. Ele possui o conhecimento oculto da floresta e dos espíritos, além de habilidades como curandeiro. Eruvar é estimado em todas as aldeias do sul e aparece de tempos em tempos em Kandrak trazendo conhecimento, recursos e bençãos ao povo."
-      }
+      },
+            {
+        image: "images/Cirane.png",
+        caption: "Cirane (Cirâne) - Texto",
+      },
+      {
+        image: "images/Jabari.png",
+        caption: "Jabari (Jabári) - Texto",
+      },
+      {
+        image: "images/Vanesha.png",
+        caption: "Vanesha (Vanecha) - Texto",
+      },
+      {
+        image: "images/Ziaran.png",
+        caption: "Ziaran (Ziarán) - Texto",
+      },
+      {
+        image: "images/Khaledar.png",
+        caption: "Khaledar (Káledar) - Texto",
+      },
+      {
+        image: "images/Viorica.png",
+        caption: "Viorica (Viórica) - Texto",
+      },
+      {
+        image: "images/Loren.png",
+        caption: "Loren (Lóren) - Texto",
+      },
+      {
+        image: "images/Sidgar.png",
+        caption: "Sidgar (Sidgar) - Texto",
+      },
     ];
 
     let currentIndex = 0;
