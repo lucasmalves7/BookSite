@@ -112,3 +112,5 @@ function toggleMenu() {
 
     // Inicializa com o primeiro slide
     showSlide(currentIndex);
+
+
