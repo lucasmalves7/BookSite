@@ -301,6 +301,24 @@ p {
     }
 }
 
+/* RODAPÉ */
+footer {
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(134, 134, 134);
+    font-weight: bolder;
+    padding: 0;
+    margin: 0%;
+}
+
+footer > p {
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    margin: 0%;
+    opacity: 0.2;
+}
+
 /* EFEITO DO FOGO */
 .fire-background {
     position: fixed; /* Fixa o fundo na tela */

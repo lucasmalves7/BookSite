@@ -18,7 +18,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 95vh;
     text-align: center;
     background-image: url('https://images.unsplash.com/photo-1549416043-41f3d8e5e78a');
     background-size: cover;
@@ -167,6 +167,24 @@ p {
     p {
         font-size: 1rem; /* Diminui o tamanho da fonte do texto para melhor leitura */
     }
+}
+
+/* RODAPÉ */
+footer {
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(134, 134, 134);
+    font-weight: bolder;
+    padding: 0;
+    margin: 0%;
+}
+
+footer > p {
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    margin: 0%;
+    opacity: 0.2;
 }
 
 /* Efeito de Fogo */
