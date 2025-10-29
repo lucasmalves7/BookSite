@@ -44,7 +44,7 @@ function toggleMenu() {
       },
       {
         image: "images/Nthale.jpeg",
-        caption: "Nthale Mbakan (Nitále Imbakân) - Foi capturado pelos valenthianos e feito de escravo por eles. Nthale navega junto de seus captores até o novo continente descoberto pelo império, enquanto sofre nas mãos de seus soberanos. Ele se apega a profecia de sua irmã, que dizia que na nova terra descoberta haverá alguém capaz de libertar ele e o seu povo."
+        caption: "Nthale Mbakan (Nitále Imbakân) - Foi capturado pelos valenthianos e feito de escravo por eles. Nthale navega junto de seus captores até o novo continente descoberto pelo império, enquanto sofre nas mãos de seus soberanos. Ele se apega a profecia de sua irmã, que dizia que na nova terra descoberta haverá alguém capaz de libertar ele o seu povo da escravidão."
       },
       {
         image: "images/Aruna.png",
