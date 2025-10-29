@@ -55,7 +55,7 @@ function toggleMenu() {
         caption: "Rakaro (Rakáro) - Forte e bem visto na aldeia, ele é o primogênito do Kacik de Kandrak e também é o seu filho preferido. Rakaro almeja que na próxima Caçada Selvagem, que decidirá o novo kacik, ele consiga o Cocar Sagrado e a lança Kuakatan, que somente um kacik pode portar."
       },
       {
-        image: "images/Yanto Asa Branca.jpeg",
+        image: "images/Eruvar Asa Branca.jpeg",
         caption: "Eruvar (Eruvár) - Sempre acompanhado de sua ave fiel, uma harpia de nome Caju, Eruvar é um dos mais respeitados nairus da floresta. Ele possui o conhecimento oculto da floresta e dos espíritos, além de habilidades como curandeiro. Eruvar é estimado em todas as aldeias do sul e aparece de tempos em tempos em Kandrak trazendo conhecimento, recursos e bençãos ao povo."
       }
     ];
