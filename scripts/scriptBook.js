@@ -36,6 +36,12 @@ function toggleMenu() {
       menu.classList.toggle('active');
     }
 
+//ALERT via ONCLICK (UTILIZADO AO CLICAR PARA ACESSAR "MAPAS" E "SOBRE O AUTOR"):
+
+function mostrarAlerta() {
+  alert("Página ainda em desenvolvimento. Em breve será liberado.");
+}
+
 //PASSADOR DE SLIDES DA PÁGINA DE PERSONAGENS
     const slides = [
       {
