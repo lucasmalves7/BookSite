@@ -39,7 +39,7 @@ function toggleMenu() {
 //ALERT via ONCLICK (UTILIZADO AO CLICAR PARA ACESSAR "MAPAS" E "SOBRE O AUTOR"):
 
 function mostrarAlerta() {
-  alert("Página ainda em desenvolvimento. Em breve será liberado.");
+  alert("Página em desenvolvimento. Em breve será liberada.");
 }
 
 //PASSADOR DE SLIDES DA PÁGINA DE PERSONAGENS
@@ -66,35 +66,35 @@ function mostrarAlerta() {
       },
             {
         image: "images/Cirane.png",
-        caption: "Cirane (Cirâne) - Texto",
+        caption: "Cirane (Cirâne) - Segunda esposa do Kacik Ziarán. É considerada a esposa favorida do kacik e após 4 anos do Ritual de União ela finalmente carrega um filho de Ziaran em seu ventre.",
       },
       {
         image: "images/Jabari.png",
-        caption: "Jabari (Jabári) - Texto",
+        caption: "Jabari (Jabári) - Um dos nairus que de tempos e tempos visitam a Grande Aldeia de Kandrak. Jabari considera Eruvar seu rival, alegando que Eruvar é uma farsa e não segue verdadeiramente os preceitos da deusa-mãe.",
       },
       {
         image: "images/Vanesha.png",
-        caption: "Vanesha (Vanecha) - Texto",
+        caption: "Vanesha (Vanecha) - Primeira esposa do Kacik Ziarán. Vanesha tem 2 filhos com o kacik e é considerada a esposa mais experiente de Ziaran, porém ela se sente rejeitada pelo marido, que quase nunca a procura por preferir Cirane, sua segunda esposa.",
       },
       {
         image: "images/Ziaran.png",
-        caption: "Ziaran (Ziarán) - Texto",
+        caption: "Ziaran (Ziarán) - Kacik da Grande Aldeia de Kandrak. Líder dos clãs do sul. Caçador que durante a Caçada Selvagem abateu um jaguar ancestral e por isso se tornou o líder dos clãs.",
       },
       {
         image: "images/Khaledar.png",
-        caption: "Khaledar (Káledar) - Texto",
+        caption: "Khaledar (Káledar) - Pertencente a Casa Luthorak, uma das 3 casas que regem o Império de Valenthar, Khaledar busca renome para ascender na política do império se equiparar aos seus irmãos, por isso decidiu explorar as Terras Selvagens do Poente com o objetivo de colonizar o território e expandir o império valenthiano.",
       },
       {
         image: "images/Viorica.png",
-        caption: "Viorica (Viórica) - Texto",
+        caption: "Viorica (Viórica) - Linguista, geógrafa e historiadora, Viorica Carmelin é uma mulher renomada no império, embora muitos a critiquem por ter práticas consideradas de cunho masculino. Ela foi escolhida por Khaledar Luthorak para ajudar na colonização dos nativos existentes nas Terras Selvagens do Poente.",
       },
       {
         image: "images/Loren.png",
-        caption: "Loren (Lóren) - Texto",
+        caption: "Loren (Lóren) - Comandante dos Paladinos Vermelhos e Segundo Comandante da expedição valenthiana nas Terras Selvagens, Loren Dancart está junto de Khaledar na missão de colonizar o ocidente. O homem, um verdadeiro estrategista e hábil de batalha, é estimado pelos valenthianos e o líder deles na ausência de Khaledar.",
       },
       {
         image: "images/Sidgar.png",
-        caption: "Sidgar (Sidgar) - Texto",
+        caption: "Sidgar (Sidgar) - Um dos domadores de escravos contratados por Khaledar Luthorak. Sua missão é garantir que os escravos saarenzianos não se rebelem. Sidgar espera fazer parte da Corte de Khaledar quando eles voltarem para Valenthar e por isso vive tentando agradar o líder daquela expedição.",
       },
     ];
 

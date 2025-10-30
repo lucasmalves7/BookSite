@@ -19,8 +19,8 @@
             <a href="index.html">Início</a>
             <a href="book.html">Capítulos</a>
             <a href="characters.html">Personagens</a>
-            <a href="maps.html">Mapas</a>
-            <a href="aboutAuthor.html">Sobre o Autor</a>
+            <a href="#" onclick="mostrarAlerta()">Mapas</a>
+            <a href="#" onclick="mostrarAlerta()">Sobre o Autor</a>
         </nav>
     </header>
     <div class="slider-container">
@@ -35,6 +35,12 @@
     <footer>
         <p>Desenvolvido por Lucas Montesino Alves - Todos os direitos reservados.</p>
     </footer>
+
+    <script>
+    window.onload = function() {
+      alert(`Aqui você verá ilustrações de alguns personagens da história. A maioria dos personagens, contudo, só serão encontrados nos capítulos do livro.`);
+    };
+    </script>
     <script src="scripts/scriptBook.js"></script>
 </body>
 </html>
