@@ -39,7 +39,7 @@ function toggleMenu() {
 //ALERT via ONCLICK (UTILIZADO AO CLICAR PARA ACESSAR "MAPAS" E "SOBRE O AUTOR"):
 
 function mostrarAlerta() {
-  alert("Página em desenvolvimento. Será liberada em breve.");
+  alert("Página em desenvolvimento.");
 }
 
 //PASSADOR DE SLIDES DA PÁGINA DE PERSONAGENS
