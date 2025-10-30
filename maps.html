@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sagrados e Profanos</title>
-    <link rel="stylesheet" href="styles/styleBook.css">
+    <link rel="stylesheet" href="styles/styleMaps.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=IM+Fell+DW+Pica&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -23,25 +23,19 @@
             <a href="aboutAuthor.html">Sobre o Autor</a>
         </nav>
     </header>
-
-    <main>
-        <!--CAMPO DAS IMAGENS-->
-        <div class="image1-container">
-            <a href="https://drive.google.com/file/d/17o9M3f5MnAi4j8dNVZTqK-yDl0NvhnsZ/view?usp=sharing" target="Poente do Norte" rel="noopener noreferrer">
-                <img id="galleryImage1" src="images/Poente do Norte.jpg" alt="Poente do Norte">    
-            </a>
+    <!--CAMPO DOS SLIDES DAS IMAGENS-->
+    <div class="slider-container">
+        <img id="slide" class="slider-image" src="" alt="Imagem do slide" />
+        <div id="caption" class="caption"></div>
+        <div class="controls">
+            <button onclick="prevSlide()">Anterior</button>
+            <button onclick="nextSlide()">Próximo</button>
         </div>
-        <div class="image2-container">
-            <a href="https://drive.google.com/file/d/1frI02Oe82DDSWsukqQHg66zoLrFxNx1B/view?usp=sharing" target="Poente do Sul" rel="noopener noreferrer">
-                <img id="galleryImage2" src="images/Poente do Sul.jpg" alt="Poente do Sul">
-            </a>
-        </div>
-    </main>
+    </div>
 
     <div class="fire-background"> </div>
 
-    </div>
-    <script src="scripts/scriptBook.js"></script>
+    <script src="scripts/scriptMaps.js"></script>
     
 </body>
 </html>
