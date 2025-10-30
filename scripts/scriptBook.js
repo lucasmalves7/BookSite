@@ -66,7 +66,7 @@ function mostrarAlerta() {
       },
             {
         image: "images/Cirane.png",
-        caption: "Cirane (Cirâne) - Segunda esposa do Kacik Ziarán. É considerada a esposa favorida do kacik e após 4 anos do Ritual de União ela finalmente carrega um filho de Ziaran em seu ventre.",
+        caption: "Cirane (Cirâne) - Segunda esposa do Kacik Ziarán. É considerada a esposa favorida do kacik e, após 4 anos do Ritual de União, ela finalmente carrega um filho de Ziaran em seu ventre.",
       },
       {
         image: "images/Jabari.png",
