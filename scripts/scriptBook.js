@@ -82,7 +82,7 @@ function mostrarAlerta() {
       },
       {
         image: "images/Khaledar.png",
-        caption: "Khaledar (Káledar) - Pertencente a Casa Luthorak, uma das 3 casas que regem o Império de Valenthar, Khaledar busca renome para ascender na política do império se equiparar aos seus irmãos, por isso decidiu explorar as Terras Selvagens do Poente com o objetivo de colonizar o território e expandir o império valenthiano.",
+        caption: "Khaledar (Káledar) - Pertencente a Casa Luthorak, uma das 3 casas que regem o Império de Valenthar, Khaledar busca renome para ascender na política do império e se equiparar aos seus irmãos, por isso decidiu explorar as Terras Selvagens do Poente com o objetivo de colonizar o território e expandir o império valenthiano.",
       },
       {
         image: "images/Viorica.png",
