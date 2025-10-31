@@ -66,7 +66,7 @@ function mostrarAlerta() {
       },
       {
         image: "images/Adnari.png",
-        caption: "Adnari (Adnári) - Filha de Obaki, do Clã Garra de Tigre, Adnari atrai muitos olhares por onde passa. Diferente da maioria das mulheres da aldeia que são incumbidas de atividades domésticas, Adnari prefere caçar e quase sempre está acompanhada de Rudan em suas caçadas."
+        caption: "Adnari (Adnári) - Filha de Obaki, do Clã Garra de Gavião, Adnari atrai muitos olhares por onde passa. Diferente da maioria das mulheres da aldeia que são incumbidas de atividades domésticas, Adnari prefere caçar e quase sempre está acompanhada de Rudan em suas caçadas."
       },
       {
         image: "images/Cirane.png",
