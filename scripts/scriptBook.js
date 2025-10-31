@@ -64,7 +64,11 @@ function mostrarAlerta() {
         image: "images/Eruvar Asa Branca.jpeg",
         caption: "Eruvar (Eruvár) - Sempre acompanhado de sua ave fiel, uma harpia chamada Pacurun, Eruvar é um dos mais respeitados nairus da floresta. Ele possui o conhecimento oculto da floresta e dos espíritos, além de habilidades como curandeiro. Eruvar é estimado em todas as aldeias do sul e aparece de tempos em tempos em Kandrak trazendo conhecimento, recursos e bençãos ao povo."
       },
-            {
+      {
+        image: "images/Adnari.png",
+        caption: "Adnari (Adnári) - Filha de Obaki, do Clã Garra de Tigre, Adnari atrai muitos olhares por onde passa. Diferente da maioria das mulheres da aldeia que são incumbidas de atividades domésticas, Adnari prefere caçar e quase sempre está acompanhada de Rudan em suas caçadas."
+      },
+      {
         image: "images/Cirane.png",
         caption: "Cirane (Cirâne) - Segunda esposa do Kacik Ziarán. É considerada a esposa favorida do kacik e, após 4 anos do Ritual de União, ela finalmente carrega um filho de Ziaran em seu ventre.",
       },
