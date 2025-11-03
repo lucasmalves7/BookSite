@@ -94,7 +94,7 @@ function mostrarAlerta() {
       },
       {
         image: "images/Loren.png",
-        caption: "Loren (Lóren) - Comandante dos Paladinos Vermelhos e Segundo Comandante da expedição valenthiana nas Terras Selvagens, Loren Dancart está junto de Khaledar na missão de colonizar o ocidente. O homem, um verdadeiro estrategista e hábil de batalha, é estimado pelos valenthianos e o líder deles na ausência de Khaledar.",
+        caption: "Loren (Lóren) - Líder dos Paladinos Vermelhos e Segundo Comandante da expedição valenthiana nas Terras Selvagens, Loren Dancart está junto de Khaledar na missão de colonizar o ocidente. O homem, um verdadeiro estrategista e hábil de batalha, é estimado pelos valenthianos e o líder deles na ausência de Khaledar.",
       },
       {
         image: "images/Sidgar.png",
