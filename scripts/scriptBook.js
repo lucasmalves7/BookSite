@@ -54,7 +54,7 @@ function mostrarAlerta() {
       },
       {
         image: "images/Aruna.png",
-        caption: "Aruna (Arúna) - É uma jovem mulher muito estimada pelos Nairus da Floresta por causa de sua sensibilidade apurada em relação a natureza e ao mundo espiritual. Filha do Kacik de Kandrak, ela sabe que tem a obrigação de se casar com um caçador da aldeia, mas não almeja isso para si. Aruna deseja obter o conhecimentos dos nairus e se tornar tão respeitável e sábia quanto eles."
+        caption: "Aruna (Arúna) - É uma jovem mulher muito estimada pelos Nairus da Floresta por causa de sua sensibilidade apurada em relação a natureza e ao mundo espiritual. Filha do Kacik de Kandrak, ela sabe que tem a obrigação de se casar com um caçador da aldeia, mas não almeja isso para si. Aruna deseja obter os conhecimentos dos nairus e se tornar tão respeitável e sábia quanto eles."
       },
       {
         image: "images/Rakaro.png",
@@ -70,11 +70,11 @@ function mostrarAlerta() {
       },
       {
         image: "images/Cirane.png",
-        caption: "Cirane (Cirâne) - Segunda esposa do Kacik Ziarán. É considerada a esposa favorida do kacik e, após 4 anos do Ritual de União, ela finalmente carrega um filho de Ziaran em seu ventre.",
+        caption: "Cirane (Cirâne) - Segunda esposa do Kacik Ziaran. É considerada a esposa favorida do kacik e, após 4 anos do Ritual de União, ela finalmente carrega um filho de Ziaran em seu ventre.",
       },
       {
         image: "images/Jabari.png",
-        caption: "Jabari (Jabári) - Um dos nairus que de tempos e tempos visitam a Grande Aldeia de Kandrak. Jabari considera Eruvar seu rival, alegando que Eruvar é uma farsa e não segue verdadeiramente os preceitos da deusa-mãe.",
+        caption: "Jabari (Jabári) - Um dos nairus que de tempos em tempos visita a Grande Aldeia de Kandrak. Jabari considera Eruvar seu rival, alegando que Eruvar é uma farsa e não segue verdadeiramente os preceitos da deusa-mãe.",
       },
       {
         image: "images/Vanesha.png",
