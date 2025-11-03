@@ -98,7 +98,7 @@ function mostrarAlerta() {
       },
       {
         image: "images/Sidgar.png",
-        caption: "Sidgar (Sídgar) - Conhecido como Senhor das Correntes, ele é um dos contratados por Khaledar Luthorak e responsável por parte dos escravos de Valenthar na expedição ao ocidente. Sidgar espera fazer parte da Corte de Khaledar quando eles voltarem para Valenthar e por isso vive tentando agradar o líder daquela expedição.",
+        caption: "Sidgar (Sídgar) - Conhecido como Senhor das Correntes, ele é um dos subordinados de Khaledar Luthorak e responsável por parte dos escravos de Valenthar na expedição ao ocidente. Sidgar espera fazer parte da Corte de Khaledar quando eles voltarem para Valenthar e por isso vive tentando agradar o líder daquela expedição.",
       },
     ];
 
