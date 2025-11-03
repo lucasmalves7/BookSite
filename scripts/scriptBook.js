@@ -98,7 +98,7 @@ function mostrarAlerta() {
       },
       {
         image: "images/Sidgar.png",
-        caption: "Sidgar (Sídgar) - Um dos domadores de escravos contratados por Khaledar Luthorak. Sua missão é garantir que os escravos saarenzianos não se rebelem. Sidgar espera fazer parte da Corte de Khaledar quando eles voltarem para Valenthar e por isso vive tentando agradar o líder daquela expedição.",
+        caption: "Sidgar (Sídgar) - Conhecido como Senhor das Correntes, ele é um dos contratados por Khaledar Luthorak responsável por parte dos escravos de Valenthar na expedição ao ocidente. Sidgar espera fazer parte da Corte de Khaledar quando eles voltarem para Valenthar e por isso vive tentando agradar o líder daquela expedição.",
       },
     ];
 
