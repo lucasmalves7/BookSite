@@ -50,7 +50,7 @@ function mostrarAlerta() {
       },
       {
         image: "images/Nthale.jpeg",
-        caption: "Nthale Mbakan (Nitále Imbakân) - Foi capturado pelos valenthianos e feito de escravo por eles. Nthale navega junto de seus captores até o novo continente descoberto pelo império, enquanto sofre nas mãos de seus soberanos. Ele se apega a profecia de sua irmã, que dizia que na nova terra descoberta haverá alguém capaz de libertar ele e o seu povo da escravidão."
+        caption: "Nthale Mbakan (Nitále Imbakân) - Foi capturado pelos seus inimigos valenthianos. Nthale navega junto de seus captores até o novo continente descoberto pelo império, enquanto sofre nas mãos deles. Ele se apega a profecia de sua irmã, que dizia que na nova terra descoberta haverá alguém capaz de enfrentar os valenthianos e libertar os povos acometidos por eles."
       },
       {
         image: "images/Aruna.png",
@@ -98,7 +98,7 @@ function mostrarAlerta() {
       },
       {
         image: "images/Sidgar.png",
-        caption: "Sidgar (Sídgar) - Conhecido como Senhor das Correntes, ele é um dos contratados por Khaledar Luthorak responsável por parte dos escravos de Valenthar na expedição ao ocidente. Sidgar espera fazer parte da Corte de Khaledar quando eles voltarem para Valenthar e por isso vive tentando agradar o líder daquela expedição.",
+        caption: "Sidgar (Sídgar) - Conhecido como Senhor das Correntes, ele é um dos contratados por Khaledar Luthorak e responsável por parte dos escravos de Valenthar na expedição ao ocidente. Sidgar espera fazer parte da Corte de Khaledar quando eles voltarem para Valenthar e por isso vive tentando agradar o líder daquela expedição.",
       },
     ];
 
