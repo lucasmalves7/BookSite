@@ -102,7 +102,7 @@ function mostrarAlerta() {
       },
       {
         image: "images/Elandro.png",
-        caption: "Feito de escravo pelos valenthianos, Elandro é um homem misterioso e quieto, mas que atrai a atenção dos demais escravos de pele pálida, que possuem uma certa admiração por ele, apesar das condições miseráveis em que o homem se encontra.",
+        caption: "Elandro (Elândro) - Feito de escravo pelos valenthianos, Elandro é um homem misterioso e quieto, mas que atrai a atenção dos demais escravos de pele pálida, que possuem uma certa admiração por ele, apesar das condições miseráveis em que o homem se encontra.",
       },
     ];
 
