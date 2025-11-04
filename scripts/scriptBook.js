@@ -100,6 +100,10 @@ function mostrarAlerta() {
         image: "images/Sidgar.png",
         caption: "Sidgar (Sídgar) - Conhecido como Senhor das Correntes, ele é um dos subordinados de Khaledar Luthorak e responsável por parte dos escravos de Valenthar na expedição ao ocidente. Sidgar espera fazer parte da Corte de Khaledar quando eles voltarem para Valenthar e por isso vive tentando agradar o líder daquela expedição.",
       },
+      {
+        image: "images/Elandro.png",
+        caption: "Feito de escravo pelos valenthianos, Elandro é um homem misterioso e quieto, mas que atrai a atenção dos demais escravos de pele pálida, que possuem uma certa admiração por ele, apesar das condições miseráveis em que o homem se encontra.",
+      },
     ];
 
     let currentIndex = 0;
